@@ -1,12 +1,100 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
 
 body {
     background-image: url("https://cdn.pixabay.com/photo/2018/03/17/19/36/connection-3234929_1280.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: "Radio Canada", sans-serif;
-  }
-  
-/* Enter your styling here */
+        background-size: cover;
+            background-repeat: no-repeat;
+                background-position: center center;
+                    font-family: "Radio Canada", sans-serif;
+                      }
+                        
+                        /* Enter your styling here */
+                        h1 {
+                          text-align: center;
+                            color: white;
+                              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                                font-size: 50px;
+                                }
+
+                                /* Box Styling */
+                                .box {
+                                  display: flex;
+                                    flex-direction: column;
+                                      align-items: center;
+                                        margin: 35px;
+                                        }
+
+                                        /* Row Styling */
+                                        .row {
+                                          display: flex;
+                                            justify-content: center;
+                                            }/* Reduce the gap between cells (buttons) */
+                                            /* Adjust the background color to make cells whiter */
+                                            .btn {
+                                              border: 0px solid #fff;
+                                                border-radius: 5px;
+                                                  width: 75px;
+                                                    height: 75px;
+                                                      font-size: 50px;
+                                                        font-weight: 500;
+                                                          background-color: rgba(255, 255, 255, 0.7); /* Increase opacity for a whiter background */
+                                                            color: #333;
+                                                              text-align: center;
+                                                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+                                                                  cursor: pointer;
+                                                                    transition: background-color 0.3s, color 0.3s;
+                                                                      margin: 3px; /* Smaller gap between cells */
+                                                                        padding: 0; /* Remove padding to maintain cell size */
+                                                                        }
+
+
+                                                                        /* Button Hover Styling */
+                                                                        .btn:hover {
+                                                                          background-color: rgba(255, 255, 255, 0.9);
+                                                                            cursor: pointer;
+                                                                            }
+
+                                                                            /* Disabled Button Styling */
+                                                                            .btn:disabled {
+                                                                              color: black;
+                                                                                cursor: not-allowed;
+                                                                                }
+
+                                                                                /* Result Container Styling */
+                                                                                .result {
+                                                                                  background-color: rgba(255, 255, 255, 0.7);
+                                                                                    border: 2px solid #fff;
+                                                                                      text-align: center;
+                                                                                        max-width: 200px;
+                                                                                          margin: 0 auto;
+                                                                                            margin-bottom: 20px;
+                                                                                              padding: 10px;
+                                                                                              }
+
+                                                                                              /* Result Styling */
+                                                                                              .result p {
+                                                                                                color: white;
+                                                                                                  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+                                                                                                    font-size: 25px;
+                                                                                                    }
+
+                                                                                                    /* Reset Styling */
+                                                                                                    .reset {
+                                                                                                      text-align: center;
+                                                                                                      }
+
+                                                                                                      /* Reset Button Styling */
+                                                                                                      .reset-button {
+                                                                                                        border: 0px solid black;
+                                                                                                          color: black;
+                                                                                                            background-color: white;
+                                                                                                              cursor: pointer;
+                                                                                                                transition: background-color 0.3s, color 0.3s;
+                                                                                                                }
+
+                                                                                                                /* Reset Button Hover Styling */
+                                                                                                                .reset-button:hover {
+                                                                                                                  background-color: black;
+                                                                                                                    color: white;
+                                                                                                                    }
+                                                                                                                    
